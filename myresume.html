@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 
-    <title>Test_Yizhao YANG's resume</title>
+    <title>Yizhao YANG's resume</title>
   </head>
   <body>
     <br></br>
@@ -118,7 +118,7 @@
               </div>
               <br>
               <div class="container"> 
-                    <h6>PROFESSIONAL EXPERIENCE <img class="mr-3" src="./prof.png" alt="prof icon" width=18></h6> 
+                  <h6>PROFESSIONAL EXPERIENCE <img class="mr-3" src="./prof.png" alt="prof icon" width=18></h6> 
                   <div class="row align-items-top">
                     <div class="col-md-3">
                         2017/01 - 2017/07
@@ -126,20 +126,24 @@
                     </div>
                     <div class="col-md-9">
                         Product Manager Intern - MDigital Group
-                        <ul class="text-justify">
+                        <div id='normal'>
+                            <ul class="text-justify">
+                                <li>Conceptualized a fitness digital service in terms of content, functionalities and user interface. </li>
+                                <li>Benchmarked the competitors and defined a unique value proposition and positioning. </li>
+                            <a href="#" onclick="document.getElementById('normal').style.display='none';
+                            document.getElementById('hiden').style.display='inline';" style="text-align:right;">show more</a>
+                        </div>
+                        <div id='hiden'>
+                            <ul class="text-justify">
                                 <li>Conceptualized a fitness digital service in terms of content, functionalities and user interface. </li>
                                 <li>Benchmarked the competitors and defined a unique value proposition and positioning. </li>
                                 <li>Collaborated with developer and UI designer on websites/app improvement through prototyping, business requirement definition & prioritization and de-bugging. </li>
-                        
-<!-- see more 1-->
-                        <i onclick="myFunction()" align="right">Show more</i>
-                        <div class='see-more-content'>
                                 <li>Engaged in a series of Facebook campaign, with the optimized CPC $0.22, CTR 21%; identified a niche segment with highest conversion potential.</li>
                                 <li>Designed and executed a video shooting plan, working with models, videographers, studio rental companies and freelancers, cost reduced by 80% off the budget.</li>
                                 <li>Other ad-hocs about online insurance, e-commerce and cashback project.</li>
-                        </ul><br>
+                            <a href="#" onclick="document.getElementById('normal').style.display='inline';
+                            document.getElementById('hiden').style.display='none';" style="text-align:right;">show less</a>
                         </div>
-                    </div>
                   </div>
                   <div class="row align-items-top">
                       <div class="col-md-3">
@@ -156,7 +160,10 @@
                   </div>
           </div>
         </div>
+        <br>
       </div>
+
+
 
 
 

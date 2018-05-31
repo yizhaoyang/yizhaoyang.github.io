@@ -2,6 +2,10 @@ h6 {
     color: #c06c84;
 }
 
+h3 {
+    color: #c06c84;
+}
+
 p{
     color: #393e46;
 }
@@ -10,8 +14,11 @@ ul{
     color: #393e46;
 }
 
-i{
-    color: #6c737e;
-    text-align: right;
+
+#hiden {
+    display:none;
 }
 
+#normal {
+    display:true;
+}
